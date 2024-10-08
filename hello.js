@@ -3,12 +3,12 @@ var box1 = "Hello";
 console.log(box1)
 
 
-//Example1 Declare and assign seperately
-var message; //declaration
-message = "Program" //assignment
+//Example1: Declare and assign seperately
+var message; //Declaration
+message = "Programming is Fun" //Assignment
 
-//Example2 Declare and assign on same line
-var message = "Programming is fun"
+//Example2: Declare and assign on same line
+var message = "Programming is Fun" //Declare and Assignment on one line
 
 
 

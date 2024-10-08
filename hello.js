@@ -1,3 +1,5 @@
+"use strict"
+
 var box1 = "Hello";
 
 console.log(box1)
@@ -10,6 +12,16 @@ message = "Programming is Fun" //Assignment
 //Example2: Declare and assign on same line
 var message = "Programming is Fun" //Declare and Assignment on one line
 
+
+const greeting = "Hello World"
+console.log(greeting)
+
+var num1 = 42;
+var num2 = num1
+
+var nextValue = num1 + 1;
+var average = (num1 + num2) / 2;
+console.log(average)
 
 
 // console.log("Jordan")

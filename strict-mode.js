@@ -1,4 +1,5 @@
-"use strict"
+"use strict"; //Use "use strict"
+
 var number;
 number = 10;
 numbers = 12;

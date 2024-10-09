@@ -61,6 +61,18 @@ console.log("Perimeter: " + perimeter)
 
 var numberInterest = 72;
 var interestRate = .04;
-var divi = numberInterest / interestRate ; 
+var savingsAccount = 54000;
 
-console.log("At a " + interestRate)
+var accountDivide = savingsAccount * interestRate;
+
+var years = numberInterest / accountDivide;
+
+years = years.toFixed(2)
+
+var divi = numberInterest / (interestRate * 100); 
+
+console.log(divi);
+
+
+
+console.log("At a " + (interestRate * 100) + "% interest rate" + " your savings account will be worth " + years +" in " + divi + " years")

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="display"></div> -->
+     <div>
+        <form class="">
+            <label for="numberOneInput">Number 1</label>
+            <input type="number" id="numberOneInput" placeholder="">
+            <label for="numberTwoInput">Number 2</label>
+            <input type="number" id="numberTwoInput">
+            <label for="display">Total</label>
+            <input readonly type="text" id="display">
+         </form>
+
+         <aside id="history">
+
+         </aside>
+     </div>
+   
+   
+
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+</body>
+</html>

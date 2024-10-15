@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <!-- Where the html goes -->
+             <!-- choose an id which is a combination of what's in the element and what type of element it is. -->
+      <!--opening tag-->     <!--Content goes here-->    <!--Closing tag-->
+      <div id="messageDiv"> <!--the content goes here--> </div>
+      <div id=""></div>
+      <div id="helloAgain"></div>
+      <button onclick=""></button>
+<button onclick="doSomething()">Click Me</button>
+    </main>
+    <footer></footer>
+
+    <script>
+      // where the javascript goes
+      "use strict"; //fixes broken things in JavaScript
+
+      //#1 get html element into a variable(box)
+      //declare var: const messageDiv | assignment: = | html file: document.getElementById("messageDiv")
+      //document is an object with lots of properties that represents the entire html doc
+    //   const messageDiv = document.getElementById("messageDiv")
+
+    //   const bodies = document.querySelector("body")
+
+      setTimeout(function(){
+        bodies.style.backgroundColor = "purple";
+      }, 3000)
+
+      //#2 Set the element content
+    //   messageDiv.innerText = "hi";
+
+      //#3 Get the element content;
+     var currentMessage = messageDiv.innerText
+      console.log(currentMessage)
+
+      //4# Create a function to do something, (Ex. set the element content)
+function printMessage(){
+    
+}
+
+function eshei(){
+const helloAgain = document.getElementById("helloAgain")
+
+}
+
+      function doSomething(){
+        const messageDiv = document.getElementById("messageDiv")
+        // messageDiv.innerText = "hello";
+  
+        if(messageDiv.style.display = "none"){
+messageDiv.style.display = "block"
+messageDiv.innerText = "hi";
+        }else{
+messageDiv.style.display = "none"
+messageDiv.innerText = ""
+        }
+      }
+
+    //   doSomething()
+      
+    </script>
+  </body>
+</html>

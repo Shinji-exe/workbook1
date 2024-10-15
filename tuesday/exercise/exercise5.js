@@ -29,7 +29,7 @@ var tipAmount = food * tipPercentage
 tipAmount = Math.round(tipAmount)
 console.log(tipAmount)
 
-console.log("The tip on a $" + food + " food bill is $" + tipAmount + "."  )
+console.log("The tip on a $" + food + " food bill is $" + tipAmount.toFixed(2))
 
 var food1 = 30
 var tip = 10
@@ -57,7 +57,8 @@ var area = Math.PI * Math.pow(radius, 2)
 console.log("Area: " + area)
 console.log("Perimeter: " + perimeter)
 
-///////////////
+////////////////////////////
+//Rule of 72 Exercise
 
 var numberInterest = 72;
 var interestRate = .04;
@@ -73,6 +74,11 @@ var divi = numberInterest / (interestRate * 100);
 
 console.log(divi);
 
+var amounts = 0;
+var principal = 50000;
+var numberOfCompound = 12;
+var timesInYears = years
 
 
-console.log("At a " + (interestRate * 100) + "% interest rate" + " your savings account will be worth " + years +" in " + divi + " years")
+
+console.log("At a " + (interestRate * 100) + "% interest rate" + " your savings account will be worth " + numberInterest +" in " + divi + " years")

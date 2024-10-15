@@ -1,4 +1,4 @@
-//Workbook 2 page 42 Exercise 2: Reserve Words
+//Workbook 2 page 42 Exercise 3
 "use strict"
 
 var fullName = "Timothy Lundy";
